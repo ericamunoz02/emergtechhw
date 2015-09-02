@@ -14,11 +14,11 @@ console.log("User: " + userChoice);
 
 function compare(choice1,choice2) {
     if (choice1 === choice2) {
-        return "The result is a tie!"
+        return "GUESS WHAT IT'S A TIE !!!!"
     }
     else if (choice1 === "paper") {
         if (choice2 === "rock") {
-            return "paper wins"
+            return "AND paper wins"
         }
         else {
             return "scissors win"   
@@ -26,18 +26,18 @@ function compare(choice1,choice2) {
     }
     else if (choice1 === "scissors") {
         if (choice2 === "paper") {
-            return "scissors win"
+            return "AND scissors win"
         }
         else {
-            return "rock wins"   
+            return "AND rock wins"   
         }
     }
     else if (choice1 === "rock") {
         if (choice2 === "scissors") {
-            return "rock wins"
+            return "AND rock wins"
         }
         else {
-            return "paper wins"   
+            return "AND paper wins"   
         }
     }
 }
